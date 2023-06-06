@@ -33,6 +33,10 @@ func main() {
 	fmt.Println(emp1)
 	fmt.Println(emp2)
 
-	//added test comment
+	//calling functions
+	fmt.Println("sum of 2 and 3 is ", Add(2, 3)) //call by value
+	fmt.Printf("original i val=%v ", i)
+	Change(&i)
+	fmt.Println("changed val of i=", i)
 
 }
