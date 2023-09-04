@@ -1,0 +1,17 @@
+
+When inserting data into multiple tables with relationships, it's important to follow a specific order to ensure that foreign key constraints are satisfied and data integrity is maintained. Here's a suggested order for inserting data into the tables you've described:
+
+Users Table: Start by inserting user data. --------done
+
+Projects Table:  -----------done
+
+Sprints Table: 
+
+EPIC Table: 
+
+User Stories Table: 
+Tasks/Subtasks Table:
+
+Effort Logging Table (CRUD): 
+
+Issue Table: 
