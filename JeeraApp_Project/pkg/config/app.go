@@ -10,9 +10,9 @@ var (
 )
 
 func Connect() {
-	// dsn := "root:1234@tcp(127.0.0.1:3306)/mysql?charset=utf8mb4&parseTime=True&loc=Local"
-	// d, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
-	d, err := gorm.Open("mysql", "root:1234@tcp(127.0.0.1:3306)/myjira?charset=utf8mb4&parseTime=True&loc=Local")
+
+	// d, err := gorm.Open("mysql", "root:1234@tcp(127.0.0.1:3306)/myjira?charset=utf8mb4&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "root:1234@tcp(127.0.0.1:8501)/myjira?charset=utf8mb4&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}
